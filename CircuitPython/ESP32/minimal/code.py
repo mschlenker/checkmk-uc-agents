@@ -17,9 +17,9 @@ PORT = 6556
 
 # Prepare a minimal static agent output:
 output = """<<<check_mk_agent>>>
-AgentOS: MicroPython
+AgentOS: CircuitPython
 <<<local>>>
-0 "Dummy MicroPython" - This is OK.
+0 "Dummy CircuitPython" - This is OK.
 """
 
 # Initialize the board LED to show activity
