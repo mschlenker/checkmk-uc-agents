@@ -1,0 +1,4 @@
+<<<check_mk>>>
+AgentOS: CPython
+<<<local>>>
+0 "Dummy CPython" - This is OK.
