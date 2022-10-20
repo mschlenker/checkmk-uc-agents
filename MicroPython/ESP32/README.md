@@ -2,6 +2,7 @@
 
 MicroPython on the S2 Mini is a bit different from CircuitPython.
 The main difference is that this port does not offer the convenience of a flash drive.
+These examples were tested with MicroPython 1.19.1.
 
 ## Download MicroPython for the S2 Mini
 
