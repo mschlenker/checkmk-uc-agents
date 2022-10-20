@@ -6,13 +6,12 @@ These examples were tested with MicroPython 1.19.1.
 
 ## Download MicroPython for the S2 Mini
 
-This page contains the download and installation instructions.
+[This page](https://micropython.org/download/LOLIN_S2_MINI/) contains the download and installation instructions.
 When your S2 Mini came with a UF2 boot loader, you might use the UF2 images.
+For a list of all supported devices, visit the [download overview](https://micropython.org/download/).
 However, when the board already has been used with CircuitPython you might want to erase and do a full flash.
 
-https://micropython.org/download/LOLIN_S2_MINI/
-
-The `esptool.py` can be installed with the command `pip3 install esptool`.
+The `esptool.py` used for erasing and flashing can be installed with the command `pip3 install esptool`.
 
 ## Access the board
 
