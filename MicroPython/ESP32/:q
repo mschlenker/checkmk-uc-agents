@@ -1,0 +1,20 @@
+# A Checkmk compatible CO2 traffic light
+
+This small project aims to create a CO2 traffic lights based on ESP32.
+The component choice was done in a way that it can be completely assembled on a 17x10 "third size" breadboard.
+That design allows for easy translation to a 40x50mm² "perma proto" PCB board.
+
+## Components used
+
+It is inspired by Watterott CO2 Ampel, but uses different components:
+
+* ESP32 of course as µC – ESP8266 might work (but requires changing I²C wiring)
+* 128x32px² I²C SSD1306 OLED display 
+* SGP30 TVOC eCO2 air quality sensor
+* BME/BMP280 air pressure, temperature (and maybe humidity) sensor
+* Two (or more WS2812B compatible design) LEDs
+
+## Libraries used
+
+GP30 
+
