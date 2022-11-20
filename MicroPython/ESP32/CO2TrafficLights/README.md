@@ -4,6 +4,9 @@ This small project aims to create a CO2 traffic lights based on ESP32.
 The component choice was done in a way that it can be completely assembled on a 17x10 "third size" breadboard.
 That design allows for easy translation to a 40x50mm² "perma proto" PCB board.
 
+Since Checkmk is a Python company is was important to use a Python compatible platform.
+Feel free to streamline ... blah 
+
 ## Components used
 
 It is inspired by Watterott CO2 Ampel, but uses different components:
