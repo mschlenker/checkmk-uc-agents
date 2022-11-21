@@ -71,7 +71,7 @@ while True:
     elif temp > tsteps[2]:
         conn.send("1 \"DHT temperature\" temperature=%d Temperature is high.\n" % temp)
     else:
-        conn.send("0 \"DHT temperature\" humidity=%d Temperature is OK.\n" % temp)
+        conn.send("0 \"DHT temperature\" temperature=%d Temperature is OK.\n" % temp)
     # Create a local check for humidity
     if humidity < hsteps[0]:
         conn.send("2 \"DHT humidity\" humidity=%d Humidity is critical low.\n" % humidity)
